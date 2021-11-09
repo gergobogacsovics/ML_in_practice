@@ -1,0 +1,2 @@
+The original dataset can be accessed at:
+https://www.kaggle.com/roshansharma/mall-customers-clustering-analysis/data
