@@ -3,7 +3,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # Step 1 - read in the datafile
-df = pd.read_csv("../data/healthcare-dataset-stroke-data-clean.csv")
+df = pd.read_csv("../data/3/healthcare-dataset-stroke-data-clean.csv")
 
 # Step 2 - separate the inputs from the outputs
 independent_variables = list(set(df.columns) - {"stroke"}) # get all of the column names, except for "stroke"
